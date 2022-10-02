@@ -1,1 +1,11 @@
-<p>show-photo works!</p>
+<div class="container">
+  <h2>Showing random photo from "Unsplash"</h2>
+
+  <img
+    *ngIf="imgUrl"
+    [src]="imgUrl"
+    alt="some random photo"
+    width="350px"
+    height="auto"
+  />
+</div>
