@@ -1,6 +1,6 @@
 <div class="container">
   <h2>Showing random photo from "Unsplash"</h2>
-
+  <button (click)="getNewPhoto()">Change Photo</button>
   <img
     *ngIf="imgUrl"
     [src]="imgUrl"
